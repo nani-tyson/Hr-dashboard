@@ -6,6 +6,8 @@ import FilterDropdown from '../components/FilterDropdown';
 import DarkModeToggle from '../components/DarkModeToggle';
 import CreateUserModal from '../components/CreateUserModal';
 import Button from '../components/Ui/Button';
+import Navbar from '../components/Navbar';
+
 
 const Home = () => {
   const [employees, setEmployees] = useState([]);
@@ -65,6 +67,7 @@ const Home = () => {
 
   return (
     <section className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 text-gray-900 dark:text-gray-100">
+      <Navbar />
       <div className="max-w-7xl mx-auto px-4 py-10">
         <header className="mb-8 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-4">
           <div>
