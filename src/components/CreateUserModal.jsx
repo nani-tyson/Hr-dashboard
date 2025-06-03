@@ -1,7 +1,7 @@
 // src/components/CreateUserModal.jsx
 import React, { useState } from 'react';
-import Modal from './UI/Modal';
-import Button from './UI/Button';
+import Modal from './Ui/Modal';
+import Button from './Ui/Button';
 
 const initialForm = {
   firstName: '',
