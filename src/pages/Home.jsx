@@ -5,7 +5,7 @@ import SearchBar from '../components/SearchBar';
 import FilterDropdown from '../components/FilterDropdown';
 import DarkModeToggle from '../components/DarkModeToggle';
 import CreateUserModal from '../components/CreateUserModal';
-import Button from '../components/UI/Button';
+import Button from '../components/Ui/Button';
 
 const Home = () => {
   const [employees, setEmployees] = useState([]);
